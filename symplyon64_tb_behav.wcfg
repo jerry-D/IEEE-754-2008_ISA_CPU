@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="symplyon64_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="symplyon64_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="458708916666fs"></ZoomStartTime>
+      <ZoomEndTime time="458800216667fs"></ZoomEndTime>
+      <Cursor1Time time="458785000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="135"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/symplyon64_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/DUT/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/DUT/u1/CPU/PC" type="array">
+      <obj_property name="ElementShortName">PC[19:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/DUT/u1/CPU/Instruction_q0" type="array">
+      <obj_property name="ElementShortName">Instruction_q0[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction_q0[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/DUT/u1/CPU/Instruction_q0_del" type="array">
+      <obj_property name="ElementShortName">Instruction_q0_del[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction_q0_del[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/DUT/u1/CPU/SrcA_addrs_q0" type="array">
+      <obj_property name="ElementShortName">SrcA_addrs_q0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SrcA_addrs_q0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/DUT/u1/CPU/SrcB_addrs_q0" type="array">
+      <obj_property name="ElementShortName">SrcB_addrs_q0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SrcB_addrs_q0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/DUT/u1/CPU/Dest_addrs_q2" type="array">
+      <obj_property name="ElementShortName">Dest_addrs_q2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Dest_addrs_q2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/DUT/u1/CPU/rdSrcAdata" type="array">
+      <obj_property name="ElementShortName">rdSrcAdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rdSrcAdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/DUT/u1/CPU/rdSrcBdata" type="array">
+      <obj_property name="ElementShortName">rdSrcBdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">rdSrcBdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/DUT/u1/CPU/wrsrcAdata" type="array">
+      <obj_property name="ElementShortName">wrsrcAdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wrsrcAdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/DUT/u1/CPU/wrsrcBdata" type="array">
+      <obj_property name="ElementShortName">wrsrcBdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wrsrcBdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/DUT/u1/CPU/wrcycl" type="logic">
+      <obj_property name="ElementShortName">wrcycl</obj_property>
+      <obj_property name="ObjectShortName">wrcycl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/DUT/u1/CPU/core/LPCNT0" type="array">
+      <obj_property name="ElementShortName">LPCNT0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">LPCNT0[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/IRQ" type="logic">
+      <obj_property name="ElementShortName">IRQ</obj_property>
+      <obj_property name="ObjectShortName">IRQ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/TCK" type="logic">
+      <obj_property name="ElementShortName">TCK</obj_property>
+      <obj_property name="ObjectShortName">TCK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/TMS" type="logic">
+      <obj_property name="ElementShortName">TMS</obj_property>
+      <obj_property name="ObjectShortName">TMS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/TDI" type="logic">
+      <obj_property name="ElementShortName">TDI</obj_property>
+      <obj_property name="ObjectShortName">TDI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/TDO" type="logic">
+      <obj_property name="ElementShortName">TDO</obj_property>
+      <obj_property name="ObjectShortName">TDO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/TRSTn" type="logic">
+      <obj_property name="ElementShortName">TRSTn</obj_property>
+      <obj_property name="ObjectShortName">TRSTn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/DUT/u1/XCU0_done" type="logic">
+      <obj_property name="ElementShortName">XCU0_done</obj_property>
+      <obj_property name="ObjectShortName">XCU0_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/DUT/u1/XCU1_done" type="logic">
+      <obj_property name="ElementShortName">XCU1_done</obj_property>
+      <obj_property name="ObjectShortName">XCU1_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/DUT/u1/XCU2_done" type="logic">
+      <obj_property name="ElementShortName">XCU2_done</obj_property>
+      <obj_property name="ObjectShortName">XCU2_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symplyon64_tb/DUT/u1/XCU3_done" type="logic">
+      <obj_property name="ElementShortName">XCU3_done</obj_property>
+      <obj_property name="ObjectShortName">XCU3_done</obj_property>
+   </wvobject>
+</wave_config>
