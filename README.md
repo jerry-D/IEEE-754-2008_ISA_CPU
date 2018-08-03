@@ -67,7 +67,7 @@ This design was developed using the “free” version of Xilinx Vivado, version
 
 After place and route, it was determined that this 64-bit design will clock at roughly 100MHz in a Kintex UltraScale+  without constraints of any kind except for specifying what pin to use as the clock and at what clock rate.  Most of the delays are attributed to routing and not logic propagation delays. 
 
-The instant design incorporates several FloPoCo 6-bit exponent, 10-bit fraction operators modified and adapted for fully compliant operations.   If you would like to change Emulator core operators to increase range/precision, visit FloPoCo's website at:
+The instant design incorporates several FloPoCo 6-bit exponent, 10-bit fraction operators modified and adapted for fully compliant operations.   If you would like to change CPU/XCU core operators to increase range/precision, visit FloPoCo's website at:
 
 http://flopoco.gforge.inria.fr
 
