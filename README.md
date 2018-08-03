@@ -1,7 +1,5 @@
 ![](https://github.com/jerry-D/IEEE-754-2008_ISA_CPU/blob/master/images/SYMPL_CPU_LOGO.png)
 
-![](https://github.com/jerry-D/IEEE-754-2008_ISA_CPU/blob/master/images/SYMPL_CPU_LOGO.png)
-
 (August 2, 2018) Alpha release of the SYMPL 64-bit, IEEE 754-2008 ISA single and multi-core CPU that efficiently implements in hardware “all” operations mandated by IEEE 754-2008 using one instruction per operation.   Much more efficient than conventional “load-store” models, it can push two 64-bit operands into an operator, whether it be floating point, integer or logical, every clock cycle, with results automatically spilling into one of sixteen memory-mapped result buffers dedicated to that operator.  
 
 For a quick look at the various configurations of   SYMPL 64-bit, IEEE 754-2008 ISA single and multi-core CPU, download this poster-sized preliminary information sheet:
